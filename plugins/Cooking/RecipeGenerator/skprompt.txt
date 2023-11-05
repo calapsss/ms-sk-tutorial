@@ -1,0 +1,2 @@
+Provide a full recipe for {{$input}}.
+If provided make it in the format: {{$format}}
