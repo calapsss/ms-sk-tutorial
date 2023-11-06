@@ -7,6 +7,8 @@ Welcome to the Semantic Kernel Tutorial repository. This repository contains all
 This tutorial will guide you through the concepts, setup, and implementation of Microsoft's semantic kernel in your applications. The semantic kernel acts as a simulated brain and responsive body for your app, allowing it to remember interactions, learn over time, and interact with the world through AI-driven prompts and actions.
 
 Watch the full tutorial video [here](https://www.youtube.com/watch?v=90hhJHTWz50):
+
+
 [![Introduction to Semantic Kernel](https://img.youtube.com/vi/90hhJHTWz50/0.jpg)](https://www.youtube.com/watch?v=90hhJHTWz50 "Introduction to Semantic Kernel")
 
 
