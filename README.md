@@ -65,7 +65,7 @@ Finally, test the setup by running the sample program included in the repository
 Clone this repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/your-username/semantic-kernel-tutorial.git
+git clone https://github.com/calapsss/ms-sk-tutorial.git
 cd semantic-kernel-tutorial
 pip install -r requirements.txt
 ```
