@@ -1,0 +1,43 @@
+{
+    "version": "1.0",
+    "skillName": "Cooking",
+    "functionName": "RecipeGen",
+    "description": "Takes a prompt and output a recipe from the prompt",
+    "filePath": "2-ChainingFunctions/plugins/Cooking/RecipeGen/skprompt.txt",
+    "results": [
+        {
+            "completionConfig": {
+                "label": "gpt-3.5-turbo",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "gpt-3.5-turbo",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "modelId": "gpt-3.5-turbo",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 256,
+                "stopSequences": []
+            },
+            "variables": [
+                {
+                    "key": "input",
+                    "value": "Chicken Adobo Filipino Style"
+                }
+            ],
+            "output": {
+                "prompt": "Generate a recipe based on the following input:\n[INPUT]\nChicken Adobo Filipino Style\n[END INPUT]\n",
+                "durationInMilliseconds": 9196.752,
+                "inputTokens": 22,
+                "outputTokens": 371,
+                "result": "Recipe: Chicken Adobo Filipino Style\n\nIngredients:\n- 2 pounds chicken thighs, bone-in and skin-on\n- 1/2 cup soy sauce\n- 1/2 cup vinegar (preferably cane or coconut vinegar)\n- 1/4 cup water\n- 4 cloves garlic, minced\n- 1 onion, sliced\n- 2 bay leaves\n- 1 teaspoon whole black peppercorns\n- 1 tablespoon brown sugar (optional)\n- 2 tablespoons cooking oil\n\nInstructions:\n1. In a large bowl, combine soy sauce, vinegar, water, minced garlic, sliced onion, bay leaves, black peppercorns, and brown sugar (if using). Mix well to combine.\n2. Add the chicken thighs to the marinade and toss to coat. Let the chicken marinate for at least 30 minutes, or overnight in the refrigerator for best results.\n3. Heat the cooking oil in a large skillet or pot over medium-high heat. Remove the chicken from the marinade, reserving the marinade for later use.\n4. Place the chicken thighs in the hot skillet, skin side down, and cook until browned and crispy, about 5 minutes. Flip the chicken and cook for an additional 5 minutes.\n5. Pour the reserved marinade into the skillet with the chicken. Bring the mixture to a boil, then reduce the heat to low and cover. Simmer for 30-40 minutes, or until the chicken is cooked through and tender.\n6. Remove the lid and increase the heat to medium-high. Cook for an additional 5-10 minutes, or until the sauce has thickened slightly.\n7. Serve the Chicken Adobo hot with steamed rice and garnish with chopped green onions or cilantro, if desired.\n\nEnjoy your delicious Chicken Adobo Filipino Style!",
+                "chatCompletionResult": "Recipe: Chicken Adobo Filipino Style\n\nIngredients:\n- 2 pounds chicken thighs, bone-in and skin-on\n- 1/2 cup soy sauce\n- 1/2 cup vinegar (preferably cane or coconut vinegar)\n- 1/4 cup water\n- 4 cloves garlic, minced\n- 1 onion, sliced\n- 2 bay leaves\n- 1 teaspoon whole black peppercorns\n- 1 tablespoon brown sugar (optional)\n- 2 tablespoons cooking oil\n\nInstructions:\n1. In a large bowl, combine soy sauce, vinegar, water, minced garlic, sliced onion, bay leaves, black peppercorns, and brown sugar (if using). Mix well to combine.\n2. Add the chicken thighs to the marinade and toss to coat. Let the chicken marinate for at least 30 minutes, or overnight in the refrigerator for best results.\n3. Heat the cooking oil in a large skillet or pot over medium-high heat. Remove the chicken from the marinade, reserving the marinade for later use.\n4. Place the chicken thighs in the hot skillet, skin side down, and cook until browned and crispy, about 5 minutes. Flip the chicken and cook for an additional 5 minutes.\n5. Pour the reserved marinade into the skillet with the chicken. Bring the mixture to a boil, then reduce the heat to low and cover. Simmer for 30-40 minutes, or until the chicken is cooked through and tender.\n6. Remove the lid and increase the heat to medium-high. Cook for an additional 5-10 minutes, or until the sauce has thickened slightly.\n7. Serve the Chicken Adobo hot with steamed rice and garnish with chopped green onions or cilantro, if desired.\n\nEnjoy your delicious Chicken Adobo Filipino Style!"
+            }
+        }
+    ]
+}
